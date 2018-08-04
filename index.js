@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+import Presenter from './src/views/Presenter.js';
 
-AppRegistry.registerComponent('ModalsReactNative', () => App);
+AppRegistry.registerComponent('ModalsReactNative', () => Presenter);
