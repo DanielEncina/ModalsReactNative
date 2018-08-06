@@ -25,7 +25,7 @@ const ConditionalLoaderModal = props => {
   return (
     <Modal
       transparent
-      animationType={'fade'}
+      animationType={'none'}
       visible={modalShowing}
       onRequestClose={() => {
         // lo pide sino tira warn
